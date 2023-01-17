@@ -4,4 +4,6 @@
 \contentsline {section}{\numberline {2}一级标题（有关表格）}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.\hspace {2pt}1}普通表格}{1}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.\hspace {2pt}2}三线表格}{1}{subsection.2.2}%
+\contentsline {section}{\numberline {3}一级标题图片}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.\hspace {2pt}1}图片}{1}{subsection.3.1}%
 \contentsline {section}{Appendices}{3}{section*.4}%

@@ -10,6 +10,7 @@
 %  *
 \documentclass[12pt, a4paper, oneside]{ctexart}
 \usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs}
+\usepackage{ctex}
 \usepackage{fancyhdr}%导入fancyhdr包
 \usepackage{geometry} 
 \usepackage{booktabs} %三行线表格用
@@ -90,7 +91,7 @@
 
 \vspace*{\fill}
     \begin{center}
-        \Huge\textbf{大作业标题}
+        \Huge\heiti\zihao{2}\textbf{大作业标题}
     \end{center}
 \vspace*{\fill}
 
@@ -138,45 +139,46 @@
 
     \subsection{普通表格}
 
-    \begin{table}[h!]
-        \begin{center}
-            \caption{\songti \zihao{5}\bfseries 示例表格}
-            \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-            \toprule
-            \textrm{Value 1} & \textrm{Value 2} & \textrm{Value 3}\\
-            $\alpha$ & $\beta$ & $\gamma$ \\
-            \hline
-            \multicolumn{2}{c|}{12} & a\\ % <-- Combining two cells with alignment c| and content 12.
-            \hline
-            1 & 1110.1 & b\\
-            2 & 10.1 & c\\
-            3 & 23.113231 & d\\
-            \bottomrule
-            \end{tabular}
-        \end{center}
-    \end{table}
+        \begin{table}[h!]
+            \begin{center}
+                \caption{\songti \zihao{5}\bfseries 示例表格}
+                \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+                \toprule
+                \textrm{Value 1} & \textrm{Value 2} & \textrm{Value 3}\\
+                $\alpha$ & $\beta$ & $\gamma$ \\
+                \hline
+                \multicolumn{2}{c|}{12} & a\\ % <-- Combining two cells with alignment c| and content 12.
+                \hline
+                1 & 1110.1 & b\\
+                2 & 10.1 & c\\
+                3 & 23.113231 & d\\
+                \bottomrule
+                \end{tabular}
+            \end{center}
+        \end{table}
 
     \subsection{三线表格}
 
-\begin{table}[h!]
-    \begin{center}
-      \caption{\songti \zihao{5}\bfseries 三线表格}
-      \label{tab:table1}
-        \begin{tabular}{lcr}
-        \toprule
-        \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
-        $\alpha$ & $\beta$ & $\gamma$ \\
-        \hline
-        \multicolumn{2}{c}{12} & a\\ % <-- Combining two cells with alignment c| and content 12.
-        \hline
-        2 & 10.1 & b\\
-        3 & 23.113231 & c\\
-        \checkmark & $\times$ & \\
-        \bottomrule
-      \end{tabular}
-    \end{center}
-\end{table}
-
+        \begin{table}[h!]
+            \begin{center}
+            \caption{\songti \zihao{5}\bfseries 三线表格}
+            \label{tab:table1}
+                \begin{tabular}{lcr}
+                \toprule
+                \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+                $\alpha$ & $\beta$ & $\gamma$ \\
+                \hline
+                \multicolumn{2}{c}{12} & a\\ % <-- Combining two cells with alignment c| and content 12.
+                \hline
+                2 & 10.1 & b\\
+                3 & 23.113231 & c\\
+                \checkmark & $\times$ & \\
+                \bottomrule
+            \end{tabular}
+            \end{center}
+        \end{table}
+\section{一级标题图片}
+    \subsection{图片}
 
 
 \newpage
